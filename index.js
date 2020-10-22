@@ -9,7 +9,7 @@ const queue = new Map();
 
 client.once('ready', () => {
     console.log('Troupes is online!');
-    client.user.setActivity('+about | V2.2.1 | Music command is being remade')
+    client.user.setActivity('+about | V2.2.1 |I now work 24/7! Bot is getting remade.')
     
     
     
