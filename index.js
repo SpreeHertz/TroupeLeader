@@ -9,8 +9,8 @@ const queue = new Map();
 
 client.once('ready', () => {
     console.log('Troupes is online!');
-    client.user.setActivity('+about | V2.2.1 |I now work 24/7! Bot is getting remade.')
-    
+    client.user.setActivity('+about | V2.2.1 | I now work 24/7! Bot is getting remade.')
+    client.user.setStatus('dnd');
     
     
 });
@@ -19,11 +19,8 @@ client.once('ready', () => {
 
 
 
-client.on('message', msg => {
-    if (msg.author.bot) return undefined;
-    if(msg.content.startsWith(prefix)) return undefined;
 
-})
+
 
 
 
